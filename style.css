@@ -17,39 +17,21 @@ nav ul {
 
 nav li {
     display: inline; /* Hace que los ítems del menú estén en una línea horizontal */
-    margin-right: 25px; /* Espacio entre los ítems del menú */
+    margin-right: 20px; /* Espacio entre los ítems del menú */
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
-.contenedor{
-    display: flex;
-    justify-content: center;
-}
-#id_titulo{
-    display: flex;
-    justify-content: center;
-}
-#id_mark{
-    border: auto;
-    border-radius: auto;
-    margin: 1%;
-    width: 25%;
-}
-#id_ELON{
-    border: auto;
-    border-radius: auto;
-    margin: 1%;
-    width: 25%;
-}
+
 #img{
     align-items: center;
     width: 100%;
+    border-radius: 10%;
 }
